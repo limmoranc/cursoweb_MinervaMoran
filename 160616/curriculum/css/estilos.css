@@ -48,3 +48,6 @@ h1{
 	margin-top: 50px;
 	border-bottom: 5px solid white;
 }
+.circulo{
+	border-radius: 50%
+}
