@@ -1,0 +1,48 @@
+div{
+	/*definir tamaño del div, para que no abarque todo el ancho de la pantalla*/
+	width: 250px;
+	height: 150px;
+	font-size: 30px;
+	float: left;
+}
+
+.caja{
+	/*position: static;    esta invalida todas las demas medidas*/
+	/*definir la posición absoluta respecto a la pagina desde la esq sup izq*/
+	/*position: absolute;
+	top:0px;
+	bottom: 0px;
+	right: 100px;
+	left: 250px;
+	*/
+/*para que se quede fijo aunque se mueva el scroll*/
+	/*position: fixed;
+	top:300px;
+	bottom: 0px;
+	right: 0px;
+	left: 500px;*/
+	position: absolute;
+	top:0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.cajagrande{
+	position: relative;
+	width: 500px;
+	height: 500px;
+
+}
+.verde{
+	background: green;
+}
+.rojo{
+	background: red;
+}
+.azul{
+	background: blue;
+}
+.rosa{
+	background: pink
+}
