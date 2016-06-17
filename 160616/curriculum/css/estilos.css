@@ -4,19 +4,19 @@ body{
 	margin-top: -20px;
 	height: 100%;
 	padding: 0;
-	background: #170B3B;
+	background: #E0ECF8;
 	font-family: Arial, Verdana;
 }
 ul{
 	list-style-type: none;
 }
 h1{
-	color: #170B3B;
+	color: #08298A;
 	padding: 20px;
 	text-align: center;
 }
 .titulo_principal{
-	background: #8258FA;
+	background: #A9BCF5;
 }
 .menu-navegacion{
 	text-align: center;
@@ -35,13 +35,13 @@ h1{
 	padding: 10px;
 	text-decoration: none; /*quitar subrayado al link*/
 	background: #2E2E2E; /*ponele fondo a cada elemento del menu*/
-	color: #58D3F7;
+	color: #00BFFF;
 }
 /*solo las a q esten dentro de li*/
 .menu-navegacion li.activo a,
 /*para q cada elemento de li cambie de color cuando pase arriba el cursor */
 .menu-navegacion li:hover a{
-	background: #ccc;
+	background: #08298A;
 }
 .informacion-personal{
 	text-align: center;
