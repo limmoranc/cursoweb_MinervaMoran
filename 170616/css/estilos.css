@@ -1,0 +1,60 @@
+body{
+	background-color: #D7D7D7;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+/*Menu navegacion*/
+.menu-navegacion{
+	background: #8E3EE8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.menu-navegacion ul{
+	margin: 0;
+}
+.menu-navegacion ul li{
+	
+	display: inline; /*q los muestre en linea*/
+	list-style: none; /*quitar la marca de cada viñeta*/
+	border: 1px solid red;
+	border-top: none;
+	border-left: none;
+	border-right: none; 
+}
+
+.menu-navegacion ul li a{
+	background: #8E3EE8;
+	padding: 10px,10px;/*arriba y abajo cero a los lados 10*/
+	text-decoration: none;
+	color: white;
+}
+/*psudoclase que se activa cuando el puntero este sobre el elemento*/
+.menu-navegacion ul li:hover a{
+	background: black;
+}
+
+/*Titulo principal*/
+.titulo-principal{
+	background: #FF0078;
+}
+.titulo-principal h1{
+	margin: 0;
+	color: #fff;
+	font-size: 16px;
+	padding:15px 0; 
+	padding-left: 10px;
+}
+/*Introduccion*/
+.introduccion{
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	border-bottom: 35px;
+	padding-bottom: 1px solid gray;
+}
+.introduccion h2{
+	text-align: center;
+
+}
