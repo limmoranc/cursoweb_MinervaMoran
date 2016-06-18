@@ -1,0 +1,110 @@
+body{
+ 	background-color:white;
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Monotype Corsiva;
+ }
+ /*Menu navegacion*/
+ .menu-navegacion{
+ 	background: #8E3333;
+ 	margin: 10;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ }
+ .menu-navegacion ul{
+ 	margin: 0;
+ }
+ .menu-navegacion ul li{
+ 	display: inline; /*q los muestre en linea*/
+ 	list-style: none; /*quitar la marca de cada viñeta*/
+ 	border: 1px solid red;
+ 	border-top: none;
+ 	border-left: none;
+ 	border-right: none; 
+ }
+ 
+ .menu-navegacion ul li a{
+ 	background: #8E3EE8;
+ 	padding: 10px,10px;/*arriba y abajo cero a los lados 10*/
+ 	text-decoration: none;
+ 	color: white;
+ }
+/*psudoclase que se activa cuando el puntero este sobre el elemento*/
+ .menu-navegacion ul li:hover a{
+ 	background: black;
+ }
+ 
+ /*Titulo principal*/
+ .titulo-principal{
+ 	/*position: fixed;*/
+ 	text-align: center;
+ 	background: #8E3333;
+
+ }
+ .titulo-principal h1{
+ 	margin: 0; 	
+ 	color: #fff;
+ 	font-size: 50px;
+ 	padding:10px 0; 
+ 	padding-left: 10px;
+ 	 	
+ }
+ .titulo-principal img{
+ 	margin: 0;
+ 	padding:5px 0; 
+ 	padding-left: 10px;
+
+ }
+ .titulo-principal div{
+	/*definir tamaño del div, para que no abarque todo el ancho de la pantalla*/
+	width: 250px;
+	height: 150px;
+	//font-size: 30px;
+	float: left;
+}
+ /*Introduccion*/
+ .introduccion{
+ 	display: block;
+ 	width: 50%;
+ 	text-align: center;
+ 	margin: auto;
+ 	border-bottom: 35px;
+ 	padding-bottom: 1px solid gray;
+ }
+ .introduccion h2{
+ 	text-align: center;
+
+}
+.renglon{
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.columna{
+	width: 33.3333%;	
+	margin: 0;
+	float: left;
+}
+.imagen img{
+	border: 0;
+	vertical-align: middle;
+	display: block;
+	height: 40%;
+
+	max-width: 100%;
+}
+.columna h3{
+	text-align: center;
+	margin: 0;
+}
+.columna p{
+	text-align: center;
+	margin: 0;
+}
+.pie{
+	width: 100%;
+	text-align: left;
+}
+.pie p{
+	width: 100%;
+	text-align: left;
+}
