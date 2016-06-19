@@ -60,10 +60,14 @@ body{
  	text-align: center;
  	align-items: center;
 }
-
+/*Generales*/
 .renglon2{
 	margin-right: 10%;
-	margin-left: 10%;
+	margin-left: 10%;	
+}
+.renglon3{
+	margin-right: 40%;
+	margin-left: 40%;	
 }
 .columna{
 	width: 33.3333%;	
@@ -71,9 +75,10 @@ body{
 	float: left;
 }
 .columna2{
-	width: 50%;	
+	width: 25%;	
 	margin: 0;
 	float: left;
+	text-align: center;
 }
 .imagen {
 	border: 10px;
