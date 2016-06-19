@@ -75,13 +75,22 @@ body{
 	float: left;
 }
 .columna2{
-	width: 25%;	
-	margin: 0;
+	border: 1px solid #8E3333;
+	width: 22%;	
+	margin: 5;
 	float: left;
 	text-align: center;
+	text-decoration: none;
 }
-.imagen {
+
+.imagen
+{
 	border: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+.imagen2 {
+	
 	margin: 10px;
 	padding: 10px;
 	
