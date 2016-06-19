@@ -103,6 +103,11 @@ body{
 	text-align: center;
 	margin: 0;
 }
+.precio{
+	font-size: 24;
+
+	color: #8E3333;
+}
 .pie{
 	width: 100%;
 	text-align: left;
