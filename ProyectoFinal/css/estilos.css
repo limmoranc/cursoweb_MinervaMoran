@@ -7,90 +7,79 @@ body{
  /*Menu navegacion*/
  .menu-navegacion{
  	background: #8E3333;
- 	margin: 10;
+ 	margin: 0;
  	padding-top: 10px;
  	padding-bottom: 10px;
  }
  .menu-navegacion ul{
  	margin: 0;
+ 	padding: 10px;
  }
  .menu-navegacion ul li{
  	display: inline; /*q los muestre en linea*/
  	list-style: none; /*quitar la marca de cada viñeta*/
- 	border: 1px solid red;
- 	border-top: none;
+ 	border: 1px solid white;
+  	border-top: none;
  	border-left: none;
  	border-right: none; 
  }
  
  .menu-navegacion ul li a{
- 	background: #8E3EE8;
- 	padding: 10px,10px;/*arriba y abajo cero a los lados 10*/
+ 	background: #8E3333;
+ 	/*padding: 10px,10px;arriba y abajo cero a los lados 10*/
  	text-decoration: none;
  	color: white;
  }
-/*psudoclase que se activa cuando el puntero este sobre el elemento*/
- .menu-navegacion ul li:hover a{
+.menu-navegacion li.activo a,
+.menu-navegacion ul li:hover a{
  	background: black;
  }
- 
- /*Titulo principal*/
- .titulo-principal{
- 	/*position: fixed;*/
- 	text-align: center;
- 	background: #8E3333;
 
- }
- .titulo-principal h1{
- 	margin: 0; 	
- 	color: #fff;
- 	font-size: 50px;
- 	padding:10px 0; 
- 	padding-left: 10px;
- 	 	
- }
- .titulo-principal img{
- 	margin: 0;
- 	padding:5px 0; 
- 	padding-left: 10px;
 
- }
- .titulo-principal div{
-	/*definir tamaño del div, para que no abarque todo el ancho de la pantalla*/
-	width: 250px;
-	height: 150px;
-	//font-size: 30px;
+.renglon{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.colum{
+	width: 95%;	
+	margin: 0;
+	padding: 0;
+	border: 0;
 	float: left;
 }
- /*Introduccion*/
- .introduccion{
- 	display: block;
- 	width: 50%;
- 	text-align: center;
- 	margin: auto;
- 	border-bottom: 35px;
- 	padding-bottom: 1px solid gray;
- }
- .introduccion h2{
- 	text-align: center;
-
+.colum2{
+	width: 5%;	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
 }
-.renglon{
-	margin-right: 15%;
-	margin-left: 15%;
+ /*Titulo principal*/
+ .titulo-principal{
+ 	text-align: center;
+ 	align-items: center;
+}
+
+.renglon2{
+	margin-right: 10%;
+	margin-left: 10%;
 }
 .columna{
 	width: 33.3333%;	
 	margin: 0;
 	float: left;
 }
-.imagen img{
-	border: 0;
-	vertical-align: middle;
-	display: block;
-	height: 40%;
-
-	max-width: 100%;
+.columna2{
+	width: 50%;	
+	margin: 0;
+	float: left;
+}
+.imagen {
+	border: 10px;
+	margin: 10px;
+	padding: 10px;
+	
 }
 .columna h3{
 	text-align: center;
@@ -108,3 +97,4 @@ body{
 	width: 100%;
 	text-align: left;
 }
+ 
