@@ -1,0 +1,41 @@
+.titulo{
+	color:red;
+}
+
+/*esta clase va a estar oculta*/
+.mediana{
+	display: none;
+}
+/*definir en hasta q resolucion cambie el fondo*/
+@media (max-width: 375px) {
+	.titulo{
+		background-color: black;
+	}
+	.mediana{
+		display: block;
+	}
+}
+@media (max-width: 850px) and (min-width: 375px) {
+	.titulo{
+		display: none;
+	}
+	.mediana{
+		display: none;
+	}
+}
+
+@media (max-width: 2000px) and  (min-width: 850px) {
+	.titulo{
+		color: blue;		
+		font-size: 50px;
+	}
+	.mediana{
+		display: block;
+	}
+	
+}
+@media (min-width: 2000px) {	
+	body{
+		background-color: green;
+	}
+}

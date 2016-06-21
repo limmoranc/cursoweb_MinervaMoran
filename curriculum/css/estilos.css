@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	/*q el margen superior se recorra menos 20 pix hacia arriba*/
+	margin-top: -20px;
+	height: 100%;
+	padding: 0;
+	background: #E0ECF8;
+	font-family: Arial, Verdana;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	color: #08298A;
+	padding: 20px;
+	text-align: center;
+}
+.titulo_principal{
+	background: #A9BCF5;
+}
+.menu-navegacion{
+	text-align: center;
+}
+.menu-navegacion ul{
+	margin: 10px;
+	padding: 10px;
+}
+.menu-navegacion li{
+	/*crear menu horizontal barra de  de navegacion*/
+	display: inline;
+}
+/*se manda llamar la case con punto nombre de clase y la etiqueta a la q va a plicar*/
+.menu-navegacion a{
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none; /*quitar subrayado al link*/
+	background: #2E2E2E; /*ponele fondo a cada elemento del menu*/
+	color: #00BFFF;
+}
+/*solo las a q esten dentro de li*/
+.menu-navegacion li.activo a,
+/*para q cada elemento de li cambie de color cuando pase arriba el cursor */
+.menu-navegacion li:hover a{
+	background: #08298A;
+}
+.informacion-personal{
+	text-align: center;
+	margin-top: 50px;
+	border-bottom: 5px solid white;
+}
+.circulo{
+	border-radius: 50%
+}
