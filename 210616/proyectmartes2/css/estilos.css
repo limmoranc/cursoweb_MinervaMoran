@@ -89,3 +89,15 @@ img:hover{
 	background-color:blue; 
 
 }
+.cuadro{
+	width: 100px;
+	height: 100px;
+	background: red;
+	-webkit-transition: width 2s, height 4s; /*asegurarse q todos los navegadores lo reconozcan*/
+	transform: rotate(20deg);
+}
+
+.cuadro:hover{
+width: 200px;
+height: 200px;
+}
