@@ -1,0 +1,119 @@
+body{
+ 	background-color:white;
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: Monotype Corsiva;
+ }
+ /*Menu navegacion*/
+ .menu-navegacion{
+ 	background: #8E3333;
+ 	margin: 0;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ }
+ .menu-navegacion ul{
+ 	margin: 0;
+ 	padding: 10px;
+ }
+ .menu-navegacion ul li{
+ 	display: inline; /*q los muestre en linea*/
+ 	list-style: none; /*quitar la marca de cada viñeta*/
+ 	border: 1px solid white;
+  	border-top: none;
+ 	border-left: none;
+ 	border-right: none; 
+ }
+ 
+ .menu-navegacion ul li a{
+ 	background: #8E3333;
+ 	/*padding: 10px,10px;arriba y abajo cero a los lados 10*/
+ 	text-decoration: none;
+ 	color: white;
+ }
+.menu-navegacion li.activo a,
+.menu-navegacion ul li:hover a{
+ 	background: black;
+ }
+
+
+.renglon{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.colum{
+	width: 95%;	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+.colum2{
+	width: 5%;	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+ /*Titulo principal*/
+ .titulo-principal{
+ 	text-align: center;
+ 	align-items: center;
+}
+/*Generales*/
+.renglon2{
+	margin-right: 10%;
+	margin-left: 10%;	
+}
+.renglon3{
+	margin-right: 40%;
+	margin-left: 40%;	
+}
+.columna{
+	width: 33.3333%;	
+	margin: 0;
+	float: left;
+}
+.columna2{
+	border: 1px solid #8E3333;
+	width: 22%;	
+	margin: 5;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+
+.imagen
+{
+	border: 10px;
+	margin: 10px;
+	padding: 10px;
+}
+.imagen2 {
+	
+	margin: 10px;
+	padding: 10px;
+	
+}
+.columna h3{
+	text-align: center;
+	margin: 0;
+}
+.columna p{
+	text-align: center;
+	margin: 0;
+}
+.precio{
+	font-size: 24;
+
+	color: #8E3333;
+}
+.pie{
+	width: 100%;
+	text-align: left;
+}
+.pie p{
+	width: 100%;
+	text-align: left;
+}
+ 

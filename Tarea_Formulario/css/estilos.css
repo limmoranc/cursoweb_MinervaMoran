@@ -1,0 +1,35 @@
+.jumbotron{
+	background-color: #8E3333;
+
+}
+.centrar{
+	text-align: center;
+}
+
+.navbar{
+	background-color: #8E3333;
+}
+.borde-imagen{
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #8E3333;
+}
+a{
+	color: #8E3333;
+}
+.subrayado{
+   text-decoration: underline;
+}
+.precio{
+	color: #8E3333;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+.texto{
+	color: #8E3333;
+	text-align: center;
+}
+.button{
+	color: #8E3333;
+}
