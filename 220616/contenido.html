@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contenido</title>
+</head>
+<body>
+	<button id="crear">Crear texto!</button>
+	<div id="div1"></div>
+	<br>
+	<button id="cambiar">Cambiar texto!</button>
+	
+	<script>
+		document.getElementById("crear").onclick=function(){
+			document.getElementById("div1").innerHTML="<h1>HOLA</h1>";
+		}
+
+		document.getElementById("cambiar").onclick=function(){
+			document.getElementById("div1").innerHTML="Adiós";
+		}
+	</script>
+</body>
+</html>

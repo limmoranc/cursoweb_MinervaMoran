@@ -1,0 +1,103 @@
+/*poner el link en rojo*/
+a:link{
+	color:red;
+}
+
+a:visited{
+	color: green;
+}
+
+/*cuando pase el cursor se ponga rosa*/
+a:hover{
+	color: pink;
+}
+
+a:active{
+	color:blue;
+}
+
+a.link-editado:hover{
+	color:purple;
+}
+
+.cuadrito{
+	background-color:green;
+	width: 50%;
+	padding: 20px; 
+}
+
+.cuadrito:hover{
+	background-color:purple;
+}
+
+.lector{
+	width: 40%;
+	padding: 10px; 
+	border: 1px solid red;
+}
+
+.lector:focus{
+	background: blue;
+	color: white;
+	outline:none;
+}
+
+img{
+
+	opacity: .5;
+}
+
+img:hover{
+
+	opacity: .3;
+}
+
+.dropbtn{
+	background-color: blue;
+	color:red;
+	padding:20px;
+	font-size: 20px;
+	border:none;  
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+
+}
+
+.drop-contenido{
+	display: none;
+	position: absolute;
+	background-color: white;
+	border: 1px solid black; 
+	width: 100%;
+}
+/*modificar los links*/
+.drop-contenido a{
+	color: black;
+	padding: 15px;
+	text-decoration:none; 
+	display: block;
+}
+/*cuando el mouse este arriba se despliegue el contenido del ddw*/
+.dropdown:hover .drop-contenido{
+	display: block;
+}
+/*cuando el mouse este arriba del contenido cambie el fondo por c/u*/
+.drop-contenido a:hover{
+	background-color:blue; 
+
+}
+.cuadro{
+	width: 100px;
+	height: 100px;
+	background: red;
+	-webkit-transition: width 2s, height 4s; /*asegurarse q todos los navegadores lo reconozcan*/
+	transform: rotate(20deg);
+}
+
+.cuadro:hover{
+width: 200px;
+height: 200px;
+}

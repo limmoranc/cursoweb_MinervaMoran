@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Círculo!</title>
+	<style>
+		#circulo{
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+			background-color: red; 
+		}
+	</style>
+</head>
+<body>
+
+<!--Esconder un elemento cuando se da click y volverlo a mostrar tmb con click-->
+	<button id="miBoton">Clickeame!</button>
+	<div id="circulo"></div>
+<script>
+	var aux=0;
+	document.getElementById("miBoton").onclick=function(){
+		if (aux==0) {
+			document.getElementById("circulo").style.display="none";
+			aux=1;
+		}else{
+               document.getElementById("circulo").style.display="block";
+               aux=0;
+		}
+		
+	}
+</script>
+</body>
+</html>

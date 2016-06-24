@@ -1,0 +1,61 @@
+<meta name="description" content="">
+descripcion para el motor de busqueda
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+reconoce en q dispositivo estamos para definir ancho. La escala siempre debe ser 1
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+ícono en el encabezado  .ico, .jpg, .png
+
+<link rel="stylesheet" href="css/normalize.css">
+para q todos los estilos css se receteen. debe ser el primer archivo declarado
+
+<link rel="stylesheet" href="css/main.css">
+aqui se declara nuestro css
+
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+para q todos los js se receteen
+
+ <p>Hello world! This is HTML5 Boilerplate.</p>
+Contenido
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+ improta jquery       
+
+<script src="js/plugins.js"></script>
+importa etiqueta para plugin
+        
+<script src="js/main.js"></script>
+
+al final se ponen los js
+
+
+ ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+google analitics
+
+
+
+
+ejemplo para declarar en una fila 1 columna
+y una fila 3 columnas
+<div class="row">
+<div class="col-md-12">
+Bienveido
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+contenido1
+</div>
+</div
+<div class="row">
+<div class="col-md-4">
+contenido2
+</div>
+</div
+<div class="row">
+<div class="col-md-4">
+contenido3
+</div>
+</div
