@@ -5,10 +5,7 @@ var platos="";
 var monto=0;
 
 
-
 $(document).on("ready",enviar);
-
-	
 
 function enviar(){
 	$("#envio").on("click",llenaDatos)
